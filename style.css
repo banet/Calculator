@@ -11,10 +11,7 @@
 body {
   font-size: 1rem;
   font-family: "Karla", sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  align-items: center;
+
   background: linear-gradient(to right, #4a4e69, #f2e9e4);
 }
 
@@ -35,7 +32,7 @@ body {
   grid-template-columns: repeat(
     4,
     100px
-  ); /*at minimum we watn to be 120px tall, but at the maximum we want it to be auto which essatnially says as large as it nees to be to fit wverything, than repeat 5 times columns*/
+  ); /*at minimum we watn to be 120px tall, but at the maximum we want it to be auto which essatnially says as large as it nees to be to fit everything in case you have a huuuuge number!, than repeat 5 times columns*/
 }
 
 .screen {
@@ -71,7 +68,7 @@ body {
 }
 
 .calculator > button:hover {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .span-two {
   grid-column: span 2;
